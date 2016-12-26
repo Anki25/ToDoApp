@@ -1,0 +1,91 @@
+<div ng-controller="UserController as ctrl"> <!-- 1 open -->
+
+
+<!--/////////////////////////////////////////////////////////////////////////////// -->
+<div ng-show="currentUser==''"> <!-- 2 open -->
+
+<div class="row"> <!-- 3 open -->
+
+<div class="col-sm-4"><br/><br/><!-- 4 open -->
+<p style="font-family:courier;font-size: 25px;color:#00008B;font-weight:bold">
+<span class="glyphicon glyphicon-list-alt"> Appointment at passport office?</span><br/><br/>
+<i class="fa fa-birthday-cake" aria-hidden="true"> Daughter's Birthday?</i><br/><br/>
+<span class="glyphicon glyphicon-glass"> Party at 8?</span><br/><br/>
+<i class="fa fa-shopping-bag" aria-hidden="true"> Need to go for shopping?</i><br/><br/></p>
+<p style="text-align:center;font-family:verdana;font-size: 30px;color:#8470FF;font-weight:bold">Register with us in MY PLANNER ....and schedule your day perfectly by getting timely reminders
+<br/>HAVE A HASSLE FREE DAY!!!</p>
+</div>  <!-- 4 closed -->
+
+<div class="col-sm-4"> <!-- 5 open -->
+<img src="home.jpg">
+</div>   <!-- 5 closed -->
+
+<div class="col-sm-4" ng-controller="UserController as ctrl"> <!-- 6 open -->
+<p style="text-align:center;font-family:courier;font-size: 20px;color:#00008B;font-weight:bold">JOIN US TODAY!</p>
+
+<form ng-submit="ctrl.submit()" name="myForm" class="form-horizontal">
+
+  <label for="user_name">Name</label>
+  <input type="text" id="user_name" ng-model="ctrl.user.user_name">
+  
+  <label for="email">Email</label>
+  <input type="text" id="email" ng-model="ctrl.user.email">
+  
+  <label for="password">Password</label>
+  <input type="password" id="password" ng-model="ctrl.user.password">
+  
+  <label for="cpassword">Confirm Password</label>
+  <input type="password" id="cpassword" ng-model="ctrl.user.cpassword">
+  
+  <label for="profession">Profession</label>
+  <input type="text" id="profession" ng-model="ctrl.user.profession" >
+  
+  <label for="city">City</label>
+  <input type="text" id="city" ng-model="ctrl.user.city">
+  
+  <div class="row"> <!-- 7 open -->
+  <div class="form-actions"> <!-- 8 open -->
+<input type="submit" value="Register" class="btn btn-danger btn-block"><br/>
+<button type="button" ng-click="ctrl.reset()" class="btn btn-warning btn-block">Reset Form</button>
+</div> <!-- 8 closed -->
+  </div>  <!-- 7 closed --> 
+  
+  
+</form>
+
+</div><!-- col-sm-4 form -->  <!-- 6 closed -->
+
+
+</div> <!-- row -->  <!-- 3 closed -->
+
+</div>    <!-- 2 closed -->
+<!-- /////////////////////////////////////////////////////////////////////////////////////  -->
+
+
+
+<!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
+
+<div ng-hide="currentUser==''">  <!-- 9 open -->
+
+<div class="nav navbar-nav navbar-left">Welcome:  <!-- 10 open -->
+{{ctrl.user.user_name}}</div> <!-- 10 closed -->
+
+<div class="row"> <!-- 11 open -->
+
+<div class="col-sm-4">  <!-- 12 open -->
+<img src="manage.jpg">
+</div>  <!-- 12 closed -->
+
+<div class="col-sm-8">  <!-- 13 open -->
+<p style="text-align:center;font-family:courier;font-size: 30px;color:#00008B;font-weight:bold">
+<span class="glyphicon glyphicon-pencil"> Pen down your to do list activities</span><br/>
+<span class="glyphicon glyphicon-list-alt"> Manage them according to your priorities</span>
+<span class="glyphicon glyphicon-trash"> Remove them if not required</span></p>
+</div>  <!-- 13 closed -->
+
+</div> <!-- row -->  <!-- 11 closed -->
+
+</div>   <!-- 9 closed -->
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+</div> <!-- 1 closed -->
