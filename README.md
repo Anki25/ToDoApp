@@ -3,3 +3,34 @@ Web Application which helps people schedule their tasks per day
 
 ##Links for the project
 <a href="https://github.com/Anki25/ToDoApp/tree/master/ToDoBackEnd">BackEnd Application</a>
+<a href="https://github.com/Anki25/ToDoApp/tree/master/ToDoFrontEnd">FrontEnd Application</a>
+
+##Technologies
+
+##BackEnd
+1.Spring 4
+2.Maven 3
+3.Hibernate
+4.RESTful Web Services
+
+###FrontEnd
+1.Angular JS
+2.Bootstrap
+3.CSS
+
+###Database
+1.Oracle 11g Express Edition
+
+##Functionality
+
+Application helps people plan their day by organising their todos in this application.
+There are two types of user:
+###Admin
+Admin has the authority to manage the content of the website as well as view the users and their todos.
+Admin also has the right to make changes in the todos of user.
+###User
+Anyone who opens an account in the application becomes a user.Without being a registered a person cannot make their todos.
+
+##Screenshots
+
+###Landing Page
