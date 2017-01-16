@@ -41,3 +41,12 @@ Anyone who opens an account in the application becomes a user.Without being a re
 ###Login Page
 
 ![image](https://cloud.githubusercontent.com/assets/20520501/21972656/ff1f90e2-dbe0-11e6-9501-400f956f82b2.png)
+
+###User View Todo Page
+![image](https://cloud.githubusercontent.com/assets/20520501/21972677/30ab7afe-dbe1-11e6-8c61-4031d35998a9.png)
+
+###User Create TodO Page
+![image](https://cloud.githubusercontent.com/assets/20520501/21972699/4f6e0146-dbe1-11e6-938a-032ede1f189a.png)
+
+###Admin Page
+![image](https://cloud.githubusercontent.com/assets/20520501/21972722/74342596-dbe1-11e6-9745-93af0a23cd9a.png)
