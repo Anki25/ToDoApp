@@ -34,3 +34,10 @@ Anyone who opens an account in the application becomes a user.Without being a re
 ##Screenshots
 
 ###Landing Page
+![image](https://cloud.githubusercontent.com/assets/20520501/21972614/b3980ac8-dbe0-11e6-8ceb-1ba22878c4b6.png)
+
+![image](https://cloud.githubusercontent.com/assets/20520501/21972634/df82691c-dbe0-11e6-865d-097f2d282106.png)
+
+###Login Page
+
+![image](https://cloud.githubusercontent.com/assets/20520501/21972656/ff1f90e2-dbe0-11e6-9501-400f956f82b2.png)
